@@ -1,0 +1,1142 @@
+<<<<<<< HEAD
+/* Estilos generales */
+
+body {
+    background-image: url("Image/ImageWallPaper.png");
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7f7f7f;
+    border: none;
+    color: #ffffff;
+    padding: 2% 5% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    box-shadow: 10px 4px 5px #565454;
+    min-width: 200px;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+}
+
+
+
+/* Estilos de la presentación */
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la imagen de código */
+
+.backgroundImageCode {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+}
+
+.imageCode {
+    background: url("Image/ImageCode.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 14% 49% 13%;
+    border-radius: 10px;
+}
+
+/* Estilos de la imagen de perfil */
+
+.backgroundImagePerfil {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5% 9.25% 0.5%;
+    border-radius: 100%;
+
+    max-width: 1.1%;
+    position: relative;
+    left: 40%;
+    bottom: 100px;
+}
+
+.imagePerfil {
+    background: url("Image/ImagePerfil.jpg") center/cover no-repeat;
+    padding: 850% 850% 850%;
+    border-radius: 100%;
+}
+
+/* Estilos de la presentación de texto */
+
+.textPresentation {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    box-shadow: 10px 4px 5px #565454;
+    margin: 0% 15% 0%;
+    padding: 0% 1% 1%;
+}
+
+.labelFullName h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textPresentationTecnology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos de los botones */
+
+.btnPresentation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.textPresentationTecnology {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.textAboutMe {
+    margin-left: 15%;
+    margin-top: -2%;
+    margin-right: 7%;
+    text-align: justify;
+}
+
+/* Estilos de la sección "Sobre mí" */
+
+.backgroundAboutMe {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+.aboutMe {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0% 2% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    background-color: #7f7f7f;
+    border-end-end-radius: 10px;
+    padding: 0.30% 35% 0%;
+    margin: 5% 0% 5%;
+}
+
+
+
+/* Estilos de las secciones de desarrollo Front-end y Back-end */
+
+.backgroundFrontBackDev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------*/
+
+.backgroundFrontDev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.backgroundFrontDev img {
+
+    max-width: 250px;
+    margin: 1% 5% 1%;
+}
+
+.imageFormatSkillFront img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
+
+
+
+.backgroundImageSkillsFront {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.textFrontDev p {
+    font-size: large;
+}
+
+/*------------------------------------*/
+
+.backgroundBackDev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.backgroundBackDev img {
+    max-width: 250px;
+    margin: 1% 5% 1%;
+}
+
+.imageFormatSkillBack img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
+
+
+
+.backgroundImageSkillsBack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.textBackDev p {
+    font-size: large;
+}
+
+@media screen and (max-width: 1275px) {
+    .backgroundFrontBackDev {
+        flex-direction: column;
+        /* Cambia la dirección de los elementos a columna */
+    }
+
+    .backgroundImageSkillsFront {
+        width: 100%;
+    }
+
+    .backgroundFrontDev {
+        width: 100%;
+
+    }
+
+    .backgroundImageSkillsBack {
+        width: 100%;
+    }
+
+    .backgroundBackDev {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    p {
+        font-size: 75%;
+    }
+    .backgroundContactoImg{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+
+.backgroundExperiencia {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #6b6767;
+    flex-wrap: wrap;
+    margin: 4% 15% 4%;
+}
+
+.backgroundProyecto {
+    background-color: #6b6b6b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+
+
+
+
+
+.conteinProyecto {
+    color: #ffffff;
+}
+
+.titleProyecto {
+    background-color: #7f7f7f;
+    color: #ffffff;
+    padding: 0.50% 2% 0.50%;
+    margin: 1% 1% 1%;
+    border-radius: 16px;
+
+}
+
+.imageTransfer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.imageTransfer img {
+    width: 25%;
+}
+
+.backgroundContacto {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #6b6767;
+    flex-wrap: wrap;
+    margin: 4% 15% 4%;
+}
+
+.backgroundContactoImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.backgroundContactoImg img {
+    display: flex;
+    width: 15%;
+    flex-wrap: wrap;
+
+}
+
+
+.whatsAppData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+
+.gmailData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.linkedinData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.mensaje {
+    position: fixed;
+    top: 950px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9b9999;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 16px;
+    box-shadow: 10px 4px 5px #6b6767;
+}
+
+/* Estilos para pantallas menores o iguales a 768px */
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 75%;
+    }
+
+
+    .backgroundImageCode {
+        padding: 1% 1% 1%;
+    }
+
+    .imageCode {
+        padding: 25% 50% 25%;
+    }
+
+    /* Estilos de la imagen de perfil */
+
+    .backgroundImagePerfil {
+        padding: 1% 26.5% 1%;
+        border-radius: 100%;
+        max-width: 3%;
+        left: 22%;
+        bottom: 50px;
+    }
+
+    .imagePerfil {
+        padding: 900% 900% 900%;
+        border-radius: 100%;
+    }
+
+    .textPresentation {
+        margin: 0% 1% 0%;
+    }
+
+    .backgroundAboutMe {
+        margin: 1% 1% 1%;
+
+    }
+
+    .backgroundFrontBackDev {
+        width: 100%;
+    }
+
+    .backgroundFrontDev img {
+        max-width: 175px;
+    }
+
+    .imageFormatSkillFront img {
+        width: 70px;
+    }
+
+    .backgroundBackDev {
+        margin: 15% 0% 5%;
+    }
+
+    .backgroundBackDev img {
+        max-width: 175px;
+    }
+
+    .imageFormatSkillBack img {
+        width: 50px;
+    }
+
+    .backgroundImageSkillsBack {
+        width: 100%;
+    }
+
+    .backgroundExperiencia {
+        margin: 5% 1% 5%;
+    }
+
+    .backgroundProyecto {
+        margin: 2% 5% 2%;
+    }
+
+    .backgroundContacto {
+        margin: 5% 1% 5%;
+    }
+
+    .backgroundContactoImg img {
+        width: 35%;
+    }
+
+    .linkedinData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatsAppData {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .gmailData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensaje {
+        bottom: 100%;
+        left: 50%;
+        width: 50%;
+    }
+=======
+/* Estilos generales */
+
+body {
+    background-image: url("Image/ImageWallPaper.png");
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7f7f7f;
+    border: none;
+    color: #ffffff;
+    padding: 2% 5% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    box-shadow: 10px 4px 5px #565454;
+    min-width: 200px;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+}
+
+
+
+/* Estilos de la presentación */
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la imagen de código */
+
+.backgroundImageCode {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+}
+
+.imageCode {
+    background: url("Image/ImageCode.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 14% 49% 13%;
+    border-radius: 10px;
+}
+
+/* Estilos de la imagen de perfil */
+
+.backgroundImagePerfil {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5% 9.25% 0.5%;
+    border-radius: 100%;
+
+    max-width: 1.1%;
+    position: relative;
+    left: 40%;
+    bottom: 100px;
+}
+
+.imagePerfil {
+    background: url("Image/ImagePerfil.jpg") center/cover no-repeat;
+    padding: 850% 850% 850%;
+    border-radius: 100%;
+}
+
+/* Estilos de la presentación de texto */
+
+.textPresentation {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    box-shadow: 10px 4px 5px #565454;
+    margin: 0% 15% 0%;
+    padding: 0% 1% 1%;
+}
+
+.labelFullName h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textPresentationTecnology {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos de los botones */
+
+.btnPresentation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.textPresentationTecnology {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.textAboutMe {
+    margin-left: 15%;
+    margin-top: -2%;
+    margin-right: 7%;
+    text-align: justify;
+}
+
+/* Estilos de la sección "Sobre mí" */
+
+.backgroundAboutMe {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+.aboutMe {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0% 2% 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    background-color: #7f7f7f;
+    border-end-end-radius: 10px;
+    padding: 0.30% 35% 0%;
+    margin: 5% 0% 5%;
+}
+
+
+
+/* Estilos de las secciones de desarrollo Front-end y Back-end */
+
+.backgroundFrontBackDev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------*/
+
+.backgroundFrontDev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.backgroundFrontDev img {
+
+    max-width: 250px;
+    margin: 1% 5% 1%;
+}
+
+.imageFormatSkillFront img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
+
+
+
+.backgroundImageSkillsFront {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.textFrontDev p {
+    font-size: large;
+}
+
+/*------------------------------------*/
+
+.backgroundBackDev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.backgroundBackDev img {
+    max-width: 250px;
+    margin: 1% 5% 1%;
+}
+
+.imageFormatSkillBack img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
+
+
+
+.backgroundImageSkillsBack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.textBackDev p {
+    font-size: large;
+}
+
+@media screen and (max-width: 1275px) {
+    .backgroundFrontBackDev {
+        flex-direction: column;
+        /* Cambia la dirección de los elementos a columna */
+    }
+
+    .backgroundImageSkillsFront {
+        width: 100%;
+    }
+
+    .backgroundFrontDev {
+        width: 100%;
+
+    }
+
+    .backgroundImageSkillsBack {
+        width: 100%;
+    }
+
+    .backgroundBackDev {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    p {
+        font-size: 75%;
+    }
+    .backgroundContactoImg{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+
+.backgroundExperiencia {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #6b6767;
+    flex-wrap: wrap;
+    margin: 4% 15% 4%;
+}
+
+.backgroundProyecto {
+    background-color: #6b6b6b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+
+
+
+
+
+.conteinProyecto {
+    color: #ffffff;
+}
+
+.titleProyecto {
+    background-color: #7f7f7f;
+    color: #ffffff;
+    padding: 0.50% 2% 0.50%;
+    margin: 1% 1% 1%;
+    border-radius: 16px;
+
+}
+
+.imageTransfer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.imageTransfer img {
+    width: 25%;
+}
+
+.backgroundContacto {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #6b6767;
+    flex-wrap: wrap;
+    margin: 4% 15% 4%;
+}
+
+.backgroundContactoImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.backgroundContactoImg img {
+    display: flex;
+    width: 15%;
+    flex-wrap: wrap;
+
+}
+
+
+.whatsAppData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+
+.gmailData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.linkedinData {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.mensaje {
+    position: fixed;
+    top: 950px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9b9999;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 16px;
+    box-shadow: 10px 4px 5px #6b6767;
+}
+
+/* Estilos para pantallas menores o iguales a 768px */
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 75%;
+    }
+
+
+    .backgroundImageCode {
+        padding: 1% 1% 1%;
+    }
+
+    .imageCode {
+        padding: 25% 50% 25%;
+    }
+
+    /* Estilos de la imagen de perfil */
+
+    .backgroundImagePerfil {
+        padding: 1% 26.5% 1%;
+        border-radius: 100%;
+        max-width: 3%;
+        left: 22%;
+        bottom: 50px;
+    }
+
+    .imagePerfil {
+        padding: 900% 900% 900%;
+        border-radius: 100%;
+    }
+
+    .textPresentation {
+        margin: 0% 1% 0%;
+    }
+
+    .backgroundAboutMe {
+        margin: 1% 1% 1%;
+
+    }
+
+    .backgroundFrontBackDev {
+        width: 100%;
+    }
+
+    .backgroundFrontDev img {
+        max-width: 175px;
+    }
+
+    .imageFormatSkillFront img {
+        width: 70px;
+    }
+
+    .backgroundBackDev {
+        margin: 15% 0% 5%;
+    }
+
+    .backgroundBackDev img {
+        max-width: 175px;
+    }
+
+    .imageFormatSkillBack img {
+        width: 50px;
+    }
+
+    .backgroundImageSkillsBack {
+        width: 100%;
+    }
+
+    .backgroundExperiencia {
+        margin: 5% 1% 5%;
+    }
+
+    .backgroundProyecto {
+        margin: 2% 5% 2%;
+    }
+
+    .backgroundContacto {
+        margin: 5% 1% 5%;
+    }
+
+    .backgroundContactoImg img {
+        width: 35%;
+    }
+
+    .linkedinData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatsAppData {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .gmailData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensaje {
+        bottom: 100%;
+        left: 50%;
+        width: 50%;
+    }
+>>>>>>> master
+}
