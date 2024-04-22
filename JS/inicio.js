@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Añade un evento de clic al botón de descarga
     downloadButton.addEventListener("click", function() {
         // URL del archivo PDF que deseas descargar (reemplaza esto con tu propia URL)
-        var pdfUrl = "CV/RAUL_PONCELOPEZ_CV_3.pdf"; // Debes proporcionar la URL accesible en línea de tu archivo PDF
+        var pdfUrl = "CV/RAUL_PONCE_LOPEZ_CV.pdf"; // Debes proporcionar la URL accesible en línea de tu archivo PDF
 
         // Crea un elemento <a> en la memoria del navegador
         var link = document.createElement('a');
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         link.href = pdfUrl;
 
         // Asigna un nombre al archivo que se descargará (puedes cambiarlo según necesites)
-        link.download = 'RAUL_PONCELOPEZ_CV_3.pdf';
+        link.download = 'RAUL_PONCE_LOPEZ_CV.pdf';
 
         // Simula un clic en el enlace para iniciar la descarga
         document.body.appendChild(link);
