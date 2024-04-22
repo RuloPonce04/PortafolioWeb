@@ -55,7 +55,7 @@ document.getElementById("btnCopyWhatsApp").addEventListener("click", function() 
     // Llama a la función copyToClipboard con el número de teléfono como argumento
     copyToClipboard(telefono);
     // Muestra un mensaje temporal indicando que el número se copió
-    if (telefono != "477 675 6814"){
+    if (telefono != "+52 477 675 6814"){
         showMessage("Error al copiar el numero");
         console.log("Copy number ERROR")
     }else{
