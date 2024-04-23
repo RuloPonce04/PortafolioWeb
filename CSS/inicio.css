@@ -326,15 +326,24 @@ button:hover {
 
     }
 
+    .mensaje {
+        padding: 10px 10px 30px;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
     p {
         font-size: 75%;
     }
-    .backgroundContactoImg{
+
+    .backgroundContactoImg {
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    .mensaje {
+        padding: 10px 10px 30px;
     }
 
 }
@@ -452,12 +461,12 @@ button:hover {
 
 .mensaje {
     position: fixed;
-    top: 950px;
+    top: 900px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #9b9999;
     color: rgb(0, 0, 0);
-    padding: 10px 20px;
+    padding: 10px 10px 30px;
     border-radius: 16px;
     box-shadow: 10px 4px 5px #6b6767;
 }
@@ -562,8 +571,9 @@ button:hover {
     }
 
     .mensaje {
-        bottom: 100%;
+        top: 75%;
         left: 50%;
-        width: 50%;
+        width: 45%;
+        padding: 10px 10px 30px;
     }
 }
