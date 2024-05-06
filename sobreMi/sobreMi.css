@@ -1,0 +1,269 @@
+body {
+    background-image: url("Image/ImageWallPaper.png");
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: justify;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 115%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7f7f7f;
+    border: none;
+    color: #ffffff;
+    padding: 2% 3% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    box-shadow: 10px 4px 5px #565454;
+    min-width: 200px;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+}
+
+#navAboutMe {
+    background-color: #cacaca;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 1% 1%;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+#partNavAboutMe {
+    flex-wrap: wrap;
+}
+
+#partNavSections {
+    width: 1000px;
+    justify-content: center;
+    align-items: end;
+}
+
+.btnNavSections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnNavSections button {
+    min-width: 190px;
+    padding: 1.5% 2% 1.5%;
+}
+
+#backgroundCoreSkills {
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+#backgroundInformationPersonal{
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+#backgroundCoreFormation{
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 2% 1%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 5px #565454;
+    flex-wrap: wrap;
+    margin: 1% 15% 1%;
+}
+
+
+.coreSkills {
+    background-color: #7f7f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0% 2% 0%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.separator {
+    background-color: #7f7f7f;
+    border-end-end-radius: 10px;
+    padding: 0.30% 35% 0%;
+    margin: 1% 0% 1%;
+}
+
+.containSkill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.typeSkill{
+    padding: 2%;
+}
+
+
+@keyframes animacion {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.025); }
+}
+
+.resaltar {
+    animation: animacion 0.5s ease-in-out;
+}
+
+
+
+.backgroundImageSkillsBack{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.imageFormatSkillBack{
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    margin: 1%;
+}
+
+.imageFormatSkillBack img {
+    padding: 0px 15px 0px;
+    width: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.imageFormatSkillBack p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.backgroundImageFormation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .textFormatFormation {
+    padding: 1%;
+    flex-basis: 45%;
+  }
+  
+  .imageFormatFormation {
+    padding: 1%;
+    flex-basis: 350px;
+    justify-content: center;
+  }
+  
+  .imageFormatFormation img {
+    background-color: rgb(5, 5, 2);
+    width: 100%;
+  }
+
+
+@media screen and (max-width: 810px){
+
+    #backgroundInformationPersonal{ 
+        margin: 1% 5% 1%;
+    }
+
+    #backgroundCoreSkills{ 
+        margin: 1% 5% 1%;
+    }
+
+    #partNavSobreMi{
+        width: 100%;
+        justify-content: center;
+
+    }
+    #backgroundCoreFormation{
+        margin: 1% 5% 1%;
+    }
+    .btnNavSections {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .imageFormatFormation img {
+        width: 300px;
+    }
+
+    .textFormatFormation {
+        flex-basis: 100%;
+      }
+
+    
+}

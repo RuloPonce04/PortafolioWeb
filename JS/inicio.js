@@ -47,6 +47,11 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.getElementById("btnMoreInformation").addEventListener("click", function() {
+    // Abre el perfil de LinkedIn en una nueva pestaña del navegador
+    window.location.href=("sobreMi/sobreMi.html");
+});
+
 
 // Agrega un evento de clic al botón de copiar número de WhatsApp
 document.getElementById("btnCopyWhatsApp").addEventListener("click", function() {
