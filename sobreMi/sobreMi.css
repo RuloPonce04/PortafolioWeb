@@ -181,6 +181,7 @@ button:hover {
 
 .backgroundImageSkillsBack{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
@@ -220,18 +221,78 @@ button:hover {
   .textFormatFormation {
     padding: 1%;
     flex-basis: 45%;
+    flex-wrap: wrap;
   }
   
   .imageFormatFormation {
     padding: 1%;
     flex-basis: 350px;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
-  .imageFormatFormation img {
+.imageFormatFormation img {
     background-color: rgb(5, 5, 2);
     width: 100%;
+    flex-wrap: wrap;
   }
+
+.backgroundCursosFormation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.imageCursosFormation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imageCursosFormation img {
+    width: 100px;
+    padding: 0px 15px 0px;
+    flex-wrap: wrap;
+}
+
+.imageCursosFormation p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 20px; /* Ajusta el tamaño según tu imagen */
+    height: 20px; /* Ajusta el tamaño según tu imagen */
+}
+
 
 
 @media screen and (max-width: 810px){
@@ -258,7 +319,7 @@ button:hover {
         justify-content: space-around;
     }
     .imageFormatFormation img {
-        width: 300px;
+        width: 100%;
     }
 
     .textFormatFormation {
