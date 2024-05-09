@@ -265,7 +265,8 @@ button:hover {
     flex-wrap: wrap;
 }
 
-.overlay {
+.constancyOverlay {
+
     position: fixed;
     top: 0;
     bottom: 0;
@@ -278,28 +279,31 @@ button:hover {
 }
 
 .modal {
-    background-color: white;
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
     border-radius: 16px;
     position: relative;
 }
 
 .modal img{
-    width: 95%;
+    width: 90%;
 }
 
 .closeOverlay {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    top: 5%;
     position: absolute;
-    top: 10px;
-    right: 10px;
     cursor: pointer;
 }
 
-.close {
-    width: 100px; /* Ajusta el tamaño según tu imagen */
-    height: 100px; /* Ajusta el tamaño según tu imagen */
+.closeOverlay img{
+    width: 85px;
 }
-
 
 
 
@@ -356,6 +360,10 @@ button:hover {
 
     .imageCursosFormation img {
         max-width: 100%; /* Cambiamos el valor según sea necesario */
+    }
+
+    .closeOverlay {
+        justify-content: center;
     }
 
 }
