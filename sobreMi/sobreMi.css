@@ -279,19 +279,27 @@ button:hover {
 
 .modal {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 16px;
     position: relative;
 }
 
-.close {
+.modal img{
+    width: 95%;
+}
+
+.closeOverlay {
     position: absolute;
     top: 10px;
     right: 10px;
     cursor: pointer;
-    width: 20px; /* Ajusta el tamaño según tu imagen */
-    height: 20px; /* Ajusta el tamaño según tu imagen */
 }
+
+.close {
+    width: 100px; /* Ajusta el tamaño según tu imagen */
+    height: 100px; /* Ajusta el tamaño según tu imagen */
+}
+
 
 
 
@@ -326,5 +334,28 @@ button:hover {
         flex-basis: 100%;
       }
 
-    
+      .imageCursosFormation {
+        margin-bottom: 20px;
+    }
+
+    .modal {
+        max-width: 80%;
+    }
+
+    .close {
+        top: 5px;
+        right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .imageCursosFormation img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imageCursosFormation img {
+        max-width: 100%; /* Cambiamos el valor según sea necesario */
+    }
+
 }

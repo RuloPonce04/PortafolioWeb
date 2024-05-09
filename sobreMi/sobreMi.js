@@ -19,9 +19,8 @@ const constancyButtons = document.querySelectorAll('.btnShowConstancy');
 // Agregar evento clic a cada botón
 constancyButtons.forEach(button => {
     button.addEventListener('click', function() {
-        // Obtener la superposición más cercana al botón clickeado
-        const overlay = this.parentElement.nextElementSibling;
-        overlay.style.display = 'flex';
+        const constancyOverlay = this.parentElement.querySelector('.constancyOverlay');
+        constancyOverlay.style.display = 'flex';
     });
 });
 
