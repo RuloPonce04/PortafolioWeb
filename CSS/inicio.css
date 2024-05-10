@@ -226,10 +226,11 @@ button:hover {
     border-radius: 16px;
     width: 45%;
     flex-wrap: wrap;
+
+
 }
 
 .backgroundFrontDev img {
-
     max-width: 250px;
     margin: 1% 5% 1%;
 }
@@ -244,12 +245,30 @@ button:hover {
     padding: 1% 5% 1%;
 }
 
+.imageFormatSkillFront{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
 
 
 .backgroundImageSkillsFront {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.backgroundImageSkillsFront p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -278,6 +297,16 @@ button:hover {
     margin: 1% 5% 1%;
 }
 
+.imageFormatSkillBack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    flex-wrap: wrap;
+    padding: 1% 5% 1%;
+}
+
 .imageFormatSkillBack img {
     display: flex;
     flex-direction: row;
@@ -302,6 +331,8 @@ button:hover {
     flex-wrap: wrap;
     width: 100%;
 }
+
+
 
 .textBackDev p {
     font-size: large;
@@ -388,9 +419,22 @@ button:hover {
     margin: 1% 15% 1%;
 }
 
+.backgroundBtnProyects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-
-
+.moreProyects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2%;
+}
 
 
 .conteinProyecto {
