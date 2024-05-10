@@ -207,7 +207,7 @@ button:hover {
     display: flex;
     width: 100%;
     justify-content: center;
-
+    
 }
 
 .backgroundImageFormation {
@@ -305,7 +305,11 @@ button:hover {
     width: 85px;
 }
 
-
+@media screen and (max-width: 1076px){
+.textFormatFormation{
+    min-width: 70%;
+}
+}
 
 @media screen and (max-width: 810px){
 
