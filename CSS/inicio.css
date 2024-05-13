@@ -55,7 +55,7 @@ button {
     cursor: pointer;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.5s ease;
-    box-shadow: 10px 4px 5px #565454;
+    box-shadow: 10px 4px 10px #565454;
     min-width: 200px;
     max-width: 500px;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ button {
 button:hover {
     background-color: #000000;
     transform: scale(1.05);
-    box-shadow: 10px 4px 5px #565454;
+    box-shadow: 10px 4px 10px #565454;
     flex-wrap: wrap;
 }
 
