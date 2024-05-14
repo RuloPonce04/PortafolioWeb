@@ -475,6 +475,7 @@ button:hover {
 }
 
 .backgroundContactoImg {
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -482,6 +483,7 @@ button:hover {
 }
 
 .backgroundContactoImg img {
+
     display: flex;
     width: 15%;
     flex-wrap: wrap;
@@ -490,16 +492,25 @@ button:hover {
 
 
 .whatsAppData {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 5%;
     flex-wrap: wrap;
+}
+
+.whatsAppData p{
+
+    width: 310px;
+    display: flex;
+    justify-content: center;
 }
 
 
 .gmailData {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -508,13 +519,27 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.gmailData p{
+    width: 310px;
+    display: flex;
+    justify-content: center;
+}
+
+
 .linkedinData {
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 5%;
     flex-wrap: wrap;
+}
+
+.linkedinData p{
+    width: 310px;
+    display: flex;
+    justify-content: center;
 }
 
 .mensaje {
@@ -529,10 +554,28 @@ button:hover {
     box-shadow: 10px 4px 5px #6b6767;
 }
 
+@media screen and (max-width: 1056px) {
+    .linkedinData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatsAppData {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .gmailData {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Estilos para pantallas menores o iguales a 768px */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     p {
-        font-size: 75%;
+        font-size: 105%;
     }
 
 
@@ -610,22 +653,6 @@ button:hover {
 
     .backgroundContactoImg img {
         width: 35%;
-    }
-
-    .linkedinData {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .whatsAppData {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .gmailData {
-        display: flex;
-        flex-direction: column;
     }
 
     .mensaje {
